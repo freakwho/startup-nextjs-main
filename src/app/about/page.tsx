@@ -1,5 +1,5 @@
 import CompanyHistory from "@/components/About/CompanyHistory";
-import Team from "@/components/About/Team";
+import OurTeam from "@/components/About/OurTeam";
 import Culture from "@/components/About/Culture";
 import Us from "@/components/About/Us";
 
@@ -15,7 +15,7 @@ const AboutPage = () => {
   return (
     <>
       <CompanyHistory />
-      <Team />
+      <OurTeam />
       <Culture />
       <Us />
     </>

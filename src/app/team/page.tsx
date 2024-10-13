@@ -8,12 +8,12 @@ export const metadata: Metadata = {
 };
 
 
-export function Team (){
-    return(
+const Team = () => {
+  return (
     <>
       <TeamView />
     </>
-    );
-}
+  );
+};
 
 export default Team;

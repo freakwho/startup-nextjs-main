@@ -3,7 +3,7 @@ import SectionTitle from "../Common/SectionTitle";
 
 
 
-const Team = () => {
+const OurTeam = () => {
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       {text}
@@ -63,4 +63,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default OurTeam;
