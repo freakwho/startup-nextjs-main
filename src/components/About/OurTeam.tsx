@@ -1,9 +1,11 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import axios from "axios";
 
-
-
-const OurTeam = () => {
+const OurTeam =async () => {
+  const {data} = await axios.get(
+    "https://randomuser.me/api/?results=30"
+  );
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       {text}
@@ -29,10 +31,63 @@ const OurTeam = () => {
               >
                 <div className="mx-[-5px] flex flex-wrap">
                   <div className="w-full px-2 lg:w-full">
-                    <List text="Tes As Founder & CEO" />
-                    <List text="Tes As Chief Technology Officer (CTO)" />
-                    <List text="Tes As Chief Data Scientist" />
-                    <List text="Tes As Head of AI Consulting" />
+
+                    <div className="w-full">
+                      <div className="wow fadeInUp" data-wow-delay=".15s">
+                          <div className="flex">
+                            <div className="mb-2 h-[70px] w-[70px] rounded-md bg-primary bg-opacity-10 text-primary">
+                              <img src={data.results[1].picture.large}/>
+                            </div>
+                            <h3 className="ml-32 mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                              Artur Kovyakuz <br />
+                              Founder & CEO
+                            </h3>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    <div className="w-full">
+                      <div className="wow fadeInUp" data-wow-delay=".15s">
+                          <div className="flex">
+                            <div className="mb-2 h-[70px] w-[70px] rounded-md bg-primary bg-opacity-10 text-primary">
+                              <img src={data.results[2].picture.large}/>
+                            </div>
+                            <h3 className="ml-32 mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                              Aria <br />
+                              CTO
+                            </h3>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    <div className="w-full">
+                      <div className="wow fadeInUp" data-wow-delay=".15s">
+                          <div className="flex">
+                            <div className="mb-2 h-[70px] w-[70px] rounded-md bg-primary bg-opacity-10 text-primary">
+                              <img src={data.results[3].picture.large}/>
+                            </div>
+                            <h3 className="ml-32 mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                              Sedef <br />
+                              Chief Data Scientist
+                            </h3>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    <div className="w-full">
+                      <div className="wow fadeInUp" data-wow-delay=".15s">
+                          <div className="flex">
+                            <div className="mb-2 h-[70px] w-[70px] rounded-md bg-primary bg-opacity-10 text-primary">
+                              <img src={data.results[4].picture.large}/>
+                            </div>
+                            <h3 className="ml-32 mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                              Sebastian <br />
+                              Head of Driver Consulting
+                            </h3>
+                          </div>
+                      </div>
+                    </div>
+                                        
                   </div>
                 </div>
               </div>

@@ -33,35 +33,41 @@ const menuData: Menu[] = [
   },
   {
     id: 6,
+    title: "Contentful",
+    path: "/contentful",
+    newTab: false,
+  },
+  {
+    id: 7,
     title: "Pages",
     newTab: false,
     submenu: [
       {
-        id: 61,
+        id: 71,
         title: "Blog Grid Page",
         path: "/blog",
         newTab: false,
       },
       {
-        id: 62,
+        id: 72,
         title: "Blog Sidebar Page",
         path: "/blog-sidebar",
         newTab: false,
       },
       {
-        id: 63,
+        id: 73,
         title: "Blog Details Page",
         path: "/blog-details",
         newTab: false,
       },
       {
-        id: 64,
+        id: 74,
         title: "Sign In Page",
         path: "/signin",
         newTab: false,
       },
       {
-        id: 65,
+        id: 75,
         title: "Sign Up Page",
         path: "/signup",
         newTab: false,

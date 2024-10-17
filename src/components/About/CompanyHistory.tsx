@@ -16,29 +16,23 @@ const CompanyHistory = () => {
                 Who We Are
               </h1>
               <p>
-                Nexus AI is a forward-thinking tech startup based in Indonesia, specializing in artificial intelligence (AI) solutions tailored to solve real-world business challenges. Since our inception, we’ve been on a mission to empower businesses to leverage AI and transform how they operate, unlocking new levels of efficiency, innovation, and growth.
-                Our expertise spans various domains of AI, including machine learning, natural language processing (NLP), computer vision, and data analytics. We work with clients across industries, helping them integrate AI into their operations to enhance decision-making, automate tasks, and deliver more personalized customer experiences.
+                Actually, next driver is an archive where the drivers for one type devices are stored. 
+                For instance, for sound cards. They are sorted within the archive on producers, and release dates. 
+                Next Driver is software that saves your time and nerves you spend to install and update the drivers. 
+                Next Driver scans a computer by itself, detects which drivers exactly are required, and installs them. 
+                Next Driver installs official drivers from the producers, and has one of the world largest driver databases.
               </p>
               <h1 className="m-8 text-2x1 font-bold text-black dark:text-white sm:text-2xl flex justify-center">
                 Our Story
               </h1>
               <p>
-                Nexus AI is a forward-thinking tech startup based in Indonesia, specializing in artificial intelligence (AI) solutions tailored to solve real-world business challenges. Since our inception, we’ve been on a mission to empower businesses to leverage AI and transform how they operate, unlocking new levels of efficiency, innovation, and growth.
-                Our expertise spans various domains of AI, including machine learning, natural language processing (NLP), computer vision, and data analytics. We work with clients across industries, helping them integrate AI into their operations to enhance decision-making, automate tasks, and deliver more personalized customer experiences.
-              </p>
-              <h1 className="m-8 text-2x1 font-bold text-black dark:text-white sm:text-2xl flex justify-center">
-                Vision
-              </h1>
-              <p>
-                Nexus AI is a forward-thinking tech startup based in Indonesia, specializing in artificial intelligence (AI) solutions tailored to solve real-world business challenges. Since our inception, we’ve been on a mission to empower businesses to leverage AI and transform how they operate, unlocking new levels of efficiency, innovation, and growth.
-                Our expertise spans various domains of AI, including machine learning, natural language processing (NLP), computer vision, and data analytics. We work with clients across industries, helping them integrate AI into their operations to enhance decision-making, automate tasks, and deliver more personalized customer experiences.
-              </p>
-              <h1 className="m-8 text-2x1 font-bold text-black dark:text-white sm:text-2xl flex justify-center">
-                Mission
-              </h1>
-              <p>
-                Nexus AI is a forward-thinking tech startup based in Indonesia, specializing in artificial intelligence (AI) solutions tailored to solve real-world business challenges. Since our inception, we’ve been on a mission to empower businesses to leverage AI and transform how they operate, unlocking new levels of efficiency, innovation, and growth.
-                Our expertise spans various domains of AI, including machine learning, natural language processing (NLP), computer vision, and data analytics. We work with clients across industries, helping them integrate AI into their operations to enhance decision-making, automate tasks, and deliver more personalized customer experiences.
+                From a small piece of software written on pure enthusiasm 8 years ago, we have transformed into the company which has helped more than 40 million people worldwide to configure their computers! <br/><br/>
+
+                During this time, our software has become incredibly faster and smarter. Today, Next Driver is the largest database of unique drivers in the world, located on ultra high speed servers 
+                all over the world. In order to perform the process of driver installation always quickly and with the highest possible quality, we use machine learning technologies that makes our selection 
+                algorithm even better and more accurate. We have managed to achieve all this in such a way that the software remains absolutely free of charge, and everyone can use it. <br/><br/>
+
+                My team and I are proud of our product, and we hope it will become your reliable assistant in configuring any computer in the shortest possible time frame. We spend all our time in order to save yours!
               </p>
             </div>
           </div>

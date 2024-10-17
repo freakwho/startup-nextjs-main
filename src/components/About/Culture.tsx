@@ -27,8 +27,8 @@ const Culture = () => {
           <div className="w-full px-4 lg:w-1/2">
           <h1 className="mb-4 text-3x1 sm:text-3xl lg:text-3xl xl:text-3xl font-bold text-black dark:text-white">Culture</h1>
           <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            At Next Driver, we believe in fostering a work culture that is collaborative, innovative, and inclusive. 
+            We encourage every member of our team to challenge conventional thinking and approach problems with a fresh perspective. 
           </p>
             <div className="max-w-[470px]">
               <div className="mt-5 mb-9">
@@ -36,8 +36,9 @@ const Culture = () => {
                   Growth and Learning
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  The field of software driver is constantly evolving, and so are we. 
+                  We invest heavily in the continuous development of our team through workshops, training, 
+                  and knowledge-sharing sessions.
                 </p>
               </div>
               <div className="mb-9">
@@ -45,17 +46,9 @@ const Culture = () => {
                   Innovation
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Collaboration
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  We are committed to pushing the boundaries of what’s possible with software driver. 
+                  Every member of our team is encouraged to explore new ideas, test new technologies, 
+                  and bring creative solutions to the table.
                 </p>
               </div>
             </div>
