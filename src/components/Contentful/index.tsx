@@ -20,6 +20,7 @@ export default async function ContentfulView() {
             <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
                 <div className="w-full">
                         <div className="flex">
+                          <h1>On Progress</h1>
                             {blogs && blogs.items?.map((blog, idx) => (
                                 <div key={idx}>
                                     <div className="mb-2 flex h-[70px] w-[70px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
