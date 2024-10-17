@@ -8,8 +8,8 @@ const FeaturesView = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Our Services"
+            paragraph="Next Driver is suitable for any device Even for USB 3.0 on Windows 7 SP1"
             center
           />
 

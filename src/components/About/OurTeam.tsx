@@ -3,9 +3,7 @@ import SectionTitle from "../Common/SectionTitle";
 import axios from "axios";
 
 const OurTeam =async () => {
-  const {data} = await axios.get(
-    "https://randomuser.me/api/?results=30"
-  );
+  const {data} = await axios.get(process.env.NEXT_PUBLIC_TEAM_API);
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       {text}

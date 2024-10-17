@@ -2,9 +2,7 @@ import axios from "axios";
 import Data from "./interface";
 
 const TeamView = async()=>{    
-        const {data} = await axios.get(
-                "https://randomuser.me/api/?results=30"
-        );                
+        const {data} = await axios.get(process.env.NEXT_PUBLIC_TEAM_API);                
         return (
         <div>
                  {/* Leadership Team */}

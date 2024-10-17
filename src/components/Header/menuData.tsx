@@ -36,43 +36,43 @@ const menuData: Menu[] = [
     title: "Contentful",
     path: "/contentful",
     newTab: false,
-  },
-  {
-    id: 7,
-    title: "Pages",
-    newTab: false,
-    submenu: [
-      {
-        id: 71,
-        title: "Blog Grid Page",
-        path: "/blog",
-        newTab: false,
-      },
-      {
-        id: 72,
-        title: "Blog Sidebar Page",
-        path: "/blog-sidebar",
-        newTab: false,
-      },
-      {
-        id: 73,
-        title: "Blog Details Page",
-        path: "/blog-details",
-        newTab: false,
-      },
-      {
-        id: 74,
-        title: "Sign In Page",
-        path: "/signin",
-        newTab: false,
-      },
-      {
-        id: 75,
-        title: "Sign Up Page",
-        path: "/signup",
-        newTab: false,
-      },
-    ],
-  },
+  }
+  // {
+  //   id: 7,
+  //   title: "Pages",
+  //   newTab: false,
+  //   submenu: [
+  //     {
+  //       id: 71,
+  //       title: "Blog Grid Page",
+  //       path: "/blog",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 72,
+  //       title: "Blog Sidebar Page",
+  //       path: "/blog-sidebar",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 73,
+  //       title: "Blog Details Page",
+  //       path: "/blog-details",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 74,
+  //       title: "Sign In Page",
+  //       path: "/signin",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 75,
+  //       title: "Sign Up Page",
+  //       path: "/signup",
+  //       newTab: false,
+  //     },
+  //   ],
+  // },
 ];
 export default menuData;
