@@ -2,7 +2,7 @@ import ContentfulView from "@/components/Contentful";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Content Page",
+  title: "Promise",
   description: "This is Our Content",
   // other metadata
 };
